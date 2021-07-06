@@ -97,4 +97,43 @@ nav{
 
 .top-section{
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.top-section img{
+	width: 300px;
+	margin: 15%;
+}
+.top-section p{
+	width: 80%;
+	margin: 5% 0 0 15%;
+	line-height: 135%
+}
+
+.top-section h2{
+	margin-left: 15%;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.more-info{
+	margin: 15% 5%;
+}
+
+.more-info h2{
+	text-align: center;
+	margin: 5%;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.more-info img{
+	margin: 0 5% 10% 5%;
+}
+.more-info p{
+	line-height: 135%;
+}
+
+button{
+	margin: 5% 0 10% 0;      
 }
