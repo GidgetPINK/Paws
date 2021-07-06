@@ -46,3 +46,55 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*==============
+General Styling
+================*/
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #F8F8F8;
+	max-width: 768px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+html{
+	background-color: #fff;
+}
+
+header{
+	display: flex;
+	margin: 0 0 2% 0;
+	
+	align-items: center;
+}
+
+header h1{
+	margin-right: 120px;
+	font-size: 1.5rem;
+}
+
+header img{
+	width: 4%;
+	margin: 5px 8px 0 10px;
+}
+
+hr{
+	border: 2px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.75), rgba(0, 0, 0, 0));
+	margin-bottom: 50px;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 25px;
+	color: #000;
+}
+nav{
+	margin-left: 200px;
+}
+
+.top-section{
+	display: flex;
+}
