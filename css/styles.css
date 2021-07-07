@@ -46,3 +46,172 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*==============
+General Styling
+================*/
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #F8F8F8;
+	max-width: 768px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	height: 2500px;
+}
+html{
+	background-color: #fff;
+}
+
+header{
+	display: flex;
+	margin: 0 0 2% 0;
+	
+	align-items: center;
+}
+
+header h1{
+	margin-right: 120px;
+	font-size: 1.5rem;
+}
+
+header img{
+	width: 4%;
+	margin: 5px 8px 0 10px;
+}
+
+hr{
+	border: 2px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.75), rgba(0, 0, 0, 0));
+	margin-bottom: 50px;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 25px;
+	color: #000;
+}
+nav{
+	margin-left: 200px;
+}
+
+.top-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.top-section img{
+	width: 300px;
+	margin: 15%;
+}
+.top-section p{
+	width: 80%;
+	margin: 5% 0 0 15%;
+	line-height: 135%
+}
+
+.top-section h2{
+	margin-left: 15%;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.more-info{
+	margin: 15% 5%;
+}
+
+.more-info h2{
+	text-align: center;
+	margin: 5%;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.more-info img{
+	margin: 0 5% 10% 5%;
+}
+.more-info p{
+	line-height: 135%;
+}
+
+button{
+	padding: 10px; 
+	background-color: pink; 
+	border-radius: 2px;
+	color: #fff;
+	font-size: 1.2rem; 
+	border-color: pink;   
+}
+
+.btn{
+	margin: 5% 30% 10% 30%;
+}
+#btn-2{
+	padding: 10px 15px; 
+	margin-left: 10px;
+}
+
+.location-section img{
+	width: 80%;
+	margin: 5% 10% 5% 10%;
+}
+.location-section h2{
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	margin: 0 auto;
+}
+
+#gsearch{
+	padding: 10px;
+	margin-bottom: 15px;
+	border-color: pink;
+}
+label{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+fieldset{
+	display: flex;
+	flex-direction: column;
+	margin: 0 5%;
+	position: relative;
+	z-index: 2;
+}
+fieldset legend{
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 0% 0 5% 0;
+}
+fieldset input,
+fieldset textarea{
+	padding: 10px;
+	margin: 5px 0 10px 0;
+}
+textarea{
+	height: 200px;
+}
+#cat-1{
+	position: relative;
+	margin: 10px 40px -95px 90px;
+}
+
+#cat-2{
+	width: 100px;
+	margin: -70px 20px 0 400px;
+	position: relative;
+	z-index: 2;
+}
+#submit{
+	width: 30%;
+	margin: 0 0 0 5%;
+}
